@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+        #sidebar {
+            z-index: 1000; /* Ensure the z-index of the sidebar is higher than the content */
+        }
+        .transparent-navbar/* Custom CSS for transparent fixed navbar */{
+            background-color: transparent;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 50;
+            transition: background-color 0.3s ease-in-out;
+        }        
